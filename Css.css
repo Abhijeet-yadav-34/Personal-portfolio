@@ -1,0 +1,369 @@
+*{
+
+    margin:0px;
+    padding:0px;
+font-family: monospace;
+}
+
+.nav{
+    height:80px;
+    width:100%;
+    background-color:#10C4E3;
+
+}
+.logo{
+    height:100%;
+    width:30%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float:left
+}
+.navbar{
+    height:100%;
+    width :70%;
+   
+    float:left
+}
+
+.cont{
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:80vh
+
+}
+.left{
+
+    height:500px;
+    width: 950px;
+    margin:10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  
+
+}
+.right{
+   height:500px;
+   width: 500px;
+   background-image: url("./Gaming.gif");
+   background-size: 100% ;
+   background-repeat:no-repeat ;
+   background-position: center;
+   margin: 10px;
+}
+
+.nav ul{
+ float: right;
+}
+.navbar ul li{
+    width:100px;
+    float: left;
+    line-height: 80px;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color :black
+}
+.navbar label, .navbar input{
+    display: none;
+}
+
+
+.buttons{
+    width:400px;
+    background-color: white;
+    height:80px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.buttons button{
+    height:50px;
+    background-color: #10C4E3;
+    border: 0px;
+    margin: 20px;;
+    width: 150px;
+    color:white;
+    font-size: 15px;
+}
+
+.buttons button:hover{
+    height:50px;
+    border: 0px;
+    margin: 20px;
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid #4448dc;
+    color: #222;
+    background-color: #fff;
+    box-shadow: none;
+}
+.hello{
+    font-size:40px
+}
+.Iam{
+    font-size: 70px;
+}
+.icons{
+    height:100px;
+    width:300px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons i{
+    font-size: 50px;
+}
+.icons i:hover{
+color:#10C4E3
+}
+.left *{
+    margin:10px
+}
+.hello{
+    font-size: 50px;
+    
+}
+.Iam{
+    font-size: 80px;
+}
+
+.left p{
+font-size: 18px;
+}
+.logo h1{
+
+    letter-spacing:8px;
+    
+}
+
+.fa-instagram{
+    color:#E4405F
+}
+.fa-facebook{
+    color:blue
+}
+.fa-twitter{
+    color:aqua
+}
+
+
+
+/*---------------CONTACT--------------------------------*/
+main{
+    height:600px;
+    width:100%;
+}
+.contact {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-img{
+    height:500px;
+    width:500px;
+    background-image: url(./Get\ in\ touch.gif);
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;    
+}
+.contact-detail{
+    height: 100%;
+    width:500px;
+}
+.contact-detail form{
+display: flex;
+flex-direction: column;
+}
+.contact-detail form input{
+    height:40px;
+    margin: 20px 0px;
+    border: 1px solid black ;
+    padding-left:20px;
+}
+.contact-detail form textarea{
+    height:150px;
+    padding: 10px 20px ;
+}
+.contact-detail input::placeholder{
+    padding-left:20px;
+
+}
+.submit-contact:hover{
+    cursor: pointer;
+}
+
+
+/*---------------About--------------------*/
+
+.about-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-img{
+    width:500px;
+    height:500px;
+    background-image: url("./Coding.gif");
+    background-size: 90% 100%;
+    background-repeat:no-repeat ;
+    background-position:center ;
+}
+.about-info{
+    width:800px ;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-info h2{
+    font-size:35px;
+    padding:50px 0px
+}
+.about-info button{
+    width:150px;
+    padding: 17px;
+    border: 0px;
+    background-color: #10C4E3;
+    color:white;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.about-info button:hover{
+    border:2px solid #10C4E3;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+@media(max-width :1000px){
+    .cont{
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height:100vh
+    
+    }
+    .navbar label{
+        display: block;
+        float: right;
+        font-size: 40px;
+        margin: 20px;
+    }
+ 
+    .icons{
+        height:100px;
+        width:100%;
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        width:100%;
+        background-color: white;
+        height:80px;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
+    .nav ul{
+      width: 100%;
+      background-color: aqua;
+      position: fixed;
+      z-index: 999;
+      left:0px;
+      top:-100%;
+      transition: all 1s;
+}
+.left{
+
+    height:100%;
+    width: 100%;
+    margin:10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+    .navbar ul li{
+        width:100%;
+        float: none;
+        line-height: 80px;
+        list-style: none;
+        text-align: center;
+    }
+    .logo{
+        height:100%;
+        width:80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        float:left;
+
+    }
+    .navbar{
+        height:100%;
+        width :20%;
+     
+        float:left
+    }
+    .logo h1{
+        font-size: 20PX;
+    }
+
+    #check:checked~ul{
+        left:0px;
+        top:80px;
+    }
+    .right{
+        height:100%;
+        width: 100%;
+        background-image: url("./Gaming.gif");
+        background-size: 100% ;
+        background-repeat:no-repeat ;
+        background-position: center;
+        margin: 10px;
+     }
+     
+}
+
+@media(max-width:600px){
+    .service{
+        padding:10px
+    }
+    .left{
+
+        height:100%;
+        width: 100%;
+        margin:10px;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    
+    }
+}
